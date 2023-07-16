@@ -6,7 +6,7 @@
 
 .navbar {
     height: 60px;
-    background-color: #131b24;
+    background-color: #da55dd;
     color: white;
     display: flex;
     align-items: center;
@@ -17,26 +17,31 @@
 
 /* box1 */
 
-.nav-logo {
+/* .nav-logo {
     height: 50px;
     width: 110px;
     text-align: left;
-}
-
-.logo {
-    background-image: url("amazon_logo.png");
+} */
+.logo1 {
+    background-image: url("logo.png");
+     background-size: cover;
+     height: 60px;
+     width: 60px;
+ }
+/* .logo {
+   background-image: url("logo.png");
     background-size: cover;
-    height: 50px;
-    width: 115px;
-}
+    height: 5px;
+    width: 5px;
+} */
 
-.border {
+/* .border {
     border: 1.5px solid transparent;
 }
 
 .border:hover {
     border: 1.5px solid white;
-}
+} */
 
 /* box2 */
 
@@ -77,7 +82,7 @@
 }
 
 .nav-search:hover {
-    border: 2px solid chocolate;
+    border: 2px solid b388eb;
 }
 
 .search-select {
@@ -100,7 +105,7 @@
 }
 
 .search-icon {
-    color: #0f1111;
+    color: #f4f4f4;
     width: 55px;
     display: flex;
     font-size: 1.2rem;
@@ -108,7 +113,7 @@
     align-items: center;
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
-    background-color: #f7a842;
+    background-color: #7319e8;
 }
 
 /* box4 */
@@ -123,7 +128,7 @@
 }
 
 .nav-lang {
-    background-color: #131b24;
+    background-color: #da55dd;
     color: white;
     border: none;
 
@@ -149,7 +154,7 @@ span {
     font-size: 0.85rem;
     color: white;
     text-decoration: none;
-    background-color: #131b24;
+    background-color: #da55dd;
     border: none;
     font-weight: 700;
     display: flex;
@@ -184,7 +189,7 @@ span {
     height: 35px;
     align-items: center;
     color: white;
-    background-color: #222f3d;
+    background-color: #da55dd;
 
 }
 
@@ -212,7 +217,7 @@ span {
 /* hero-section */
 
 .hero-section {
-    background-image: url(hero_image.jpg);
+    background-image: url(2.png);
     height: 350px;
     background-size: cover;
     display: flex;
@@ -221,15 +226,16 @@ span {
 }
 
 .hero-msg {
-    background-color: white;
+    background-color: transparent;
     color: black;
-    height: 40px;
+    height: 25px;
     width: 80%;
     ;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 0.85rem;
+    font-size: 2rem;
+    font-style: italic;
     margin-bottom: 25px;
 }
 
@@ -323,7 +329,7 @@ span {
 /* footer */
 
 .footpanel1 {
-    background-color: #37475a;
+    background-color: #da55dd;
     color: white;
     height: 50px;
     display: flex;
@@ -338,7 +344,7 @@ span {
 }
 
 .footpanel2 {
-    background-color: #222f3d;
+    background-color: #63349f;
     padding-top: 40px;
     padding-right: 40px;
     color: white;
@@ -361,7 +367,7 @@ ul a {
 }
 
 .footpanel3 {
-    background-color: #1c2631;
+    background-color: #63349f;
     height: 100px;
     color: white;
     border-top: 0.1px solid rgb(69, 79, 94);
@@ -389,7 +395,7 @@ ul a {
 }
 
 .footpanel4 {
-    background-color: #131b24;
+    background-color: #63349f;
     color: white;
     height: 50px;
     text-align: center;
